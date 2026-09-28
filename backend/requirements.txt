@@ -17,24 +17,18 @@ hiredis>=2.2.0
 # Rate Limiting
 slowapi>=0.1.9
 
-# RAG & Document Processing
+# RAG & Document Processing (Lightweight API-based RAG)
 langchain>=0.2.0
 langchain-community>=0.2.0
 pypdf>=3.17.0
 python-docx>=1.1.0
-faiss-cpu>=1.7.4
-sentence-transformers>=2.2.2
 
 # Vision & OCR
 pillow>=10.0.0
-# pytesseract>=0.3.10  # Uncomment if Tesseract binary is installed
 
 # AI Observability
 langfuse>=2.0.0
 
-# Evaluation
-ragas>=0.1.0
-deepeval>=0.21.0
-
 # Cost Tracking
 tiktoken>=0.5.0
+
