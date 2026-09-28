@@ -1,0 +1,40 @@
+# InvenSight AI — backend
+python-dotenv>=1.0.1
+psycopg2-binary>=2.9.9
+
+# FastAPI / agent
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sqlalchemy>=2.0.36
+pydantic-settings>=2.6.0
+langgraph>=0.2.0
+langchain-groq>=0.2.0
+
+# Redis & Caching
+redis>=5.0.0
+hiredis>=2.2.0
+
+# Rate Limiting
+slowapi>=0.1.9
+
+# RAG & Document Processing
+langchain>=0.2.0
+langchain-community>=0.2.0
+pypdf>=3.17.0
+python-docx>=1.1.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Vision & OCR
+pillow>=10.0.0
+# pytesseract>=0.3.10  # Uncomment if Tesseract binary is installed
+
+# AI Observability
+langfuse>=2.0.0
+
+# Evaluation
+ragas>=0.1.0
+deepeval>=0.21.0
+
+# Cost Tracking
+tiktoken>=0.5.0
